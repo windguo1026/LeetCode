@@ -32,7 +32,6 @@
 int main()
 {
 	StrHashTest::Solution::testMain();
-	//Code380::RandomizedSet::testMain();
 	system("pause");
 	return 0;
 }
