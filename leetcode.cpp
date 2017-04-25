@@ -29,6 +29,11 @@
 #include "problems/Code542_01_Matrix.h"
 #include "problems/StrHash.h"
 
+int test1()
+{
+	return 0;
+}
+
 int main()
 {
 	StrHashTest::Solution::testMain();
