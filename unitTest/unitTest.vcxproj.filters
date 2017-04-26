@@ -15,10 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="ReadMe.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="leetcode.cpp">
+    <ClCompile Include="unitTestMain.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

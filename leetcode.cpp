@@ -1,6 +1,7 @@
 // leetcode.cpp : 定义控制台应用程序的入口点。
 
-#include "stdafx.h"
+#include <stdio.h>
+#include <tchar.h>
 #include "problems/Code23_Merge_k_Sorted_Lists.h"
 #include "problems/Code39_Combination_Sum.h"
 #include "problems/Code40_Combination_Sum_2.h"
@@ -29,25 +30,9 @@
 #include "problems/Code542_01_Matrix.h"
 #include "problems/StrHash.h"
 
-#include <gtest/gtest.h>
-
-int add(int a, int b)
-{
-	return a + b;
-}
-
-TEST(AddTest, HandleNoneZeroInput)
-{
-	EXPECT_EQ(2, add(1, 1));
-	EXPECT_EQ(50, add(32, 18));
-}
-
 int main(int argc, _TCHAR* argv[])
 {
-	testing::InitGoogleTest(&argc, argv);
-	RUN_ALL_TESTS();
-	//StrHashTest::Solution::testMain();
-	system("pause");
+	StrHashTest::Solution::testMain();
+	getchar();
 	return 0;
 }
-
