@@ -29,14 +29,24 @@
 #include "problems/Code542_01_Matrix.h"
 #include "problems/StrHash.h"
 
-int test1()
+#include <gtest/gtest.h>
+
+int add(int a, int b)
 {
-	return 0;
+	return a + b;
 }
 
-int main()
+TEST(AddTest, HandleNoneZeroInput)
 {
-	StrHashTest::Solution::testMain();
+	EXPECT_EQ(2, add(1, 1));
+	EXPECT_EQ(50, add(32, 18));
+}
+
+int main(int argc, _TCHAR* argv[])
+{
+	testing::InitGoogleTest(&argc, argv);
+	RUN_ALL_TESTS();
+	//StrHashTest::Solution::testMain();
 	system("pause");
 	return 0;
 }
