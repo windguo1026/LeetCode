@@ -3,6 +3,7 @@
 #include "Code39_Combination_Sum.h"
 #include "Code40_Combination_Sum_2.h"
 #include "Code61_Rotate_List.h"
+#include "Code62_Unique_Paths.h"
 #include "Code76_Minimum_Window_Substring.h"
 #include "Code77_Combinations.h"
 #include "Code151_Reverse_Words_in_a_String.h"

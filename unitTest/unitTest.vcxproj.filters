@@ -18,5 +18,8 @@
     <ClCompile Include="unitTestMain.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Code62_UnitTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

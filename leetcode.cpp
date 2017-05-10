@@ -6,7 +6,7 @@
 
 int main(int argc, _TCHAR* argv[])
 {
-	StrHashTest::Solution::testMain();
+	Code62::Solution::testMain();
 	printf("precess any key to exit");
 	getchar();
 	return 0;
