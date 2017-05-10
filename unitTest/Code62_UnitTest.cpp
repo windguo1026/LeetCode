@@ -1,6 +1,11 @@
 #include <gtest/gtest.h>
 #include "../problems/Code62_Unique_Paths.h"
 
+// 如果想跑Code62的单元测试，则设置成1
+#define CODE62_UNIT_TEST 0
+
+#if CODE62_UNIT_TEST
+
 TEST(Code62_Unique_Paths, UnitTest)
 {
 	Code62::Solution so;
@@ -9,3 +14,5 @@ TEST(Code62_Unique_Paths, UnitTest)
 	EXPECT_EQ(so.uniquePathsDirect(4, 11), so.uniquePaths(4, 11));
 	EXPECT_EQ(635745396, so.uniquePaths(30, 11));
 }
+
+#endif // CODE62_UNIT_TEST

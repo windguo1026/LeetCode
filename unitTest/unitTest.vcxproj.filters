@@ -24,5 +24,8 @@
     <ClCompile Include="Code63_UnitTest.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Code33_UnitTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -1,5 +1,6 @@
 #pragma once
 #include "Code23_Merge_k_Sorted_Lists.h"
+#include "Code33_Search_in_Rotated_Sorted_Array.h"
 #include "Code39_Combination_Sum.h"
 #include "Code40_Combination_Sum_2.h"
 #include "Code61_Rotate_List.h"

@@ -1,6 +1,10 @@
 #include "../problems/Code63_Unique_Paths_2.h"
 #include <gtest/gtest.h>
 
+#define CODE63_UNIT_TEST 0
+
+#if CODE63_UNIT_TEST
+
 TEST(Code63_Unique_Paths_2, UnitTest)
 {
 	Code63::Solution so;
@@ -23,3 +27,5 @@ TEST(Code63_Unique_Paths_2, UnitTest)
 	grid = { { 0, 0 }, {0, 1} };
 	EXPECT_EQ(0, so.uniquePathsWithObstacles(grid));
 }
+
+#endif 

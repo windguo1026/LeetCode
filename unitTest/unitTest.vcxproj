@@ -147,6 +147,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Code33_UnitTest.cpp" />
     <ClCompile Include="Code62_UnitTest.cpp" />
     <ClCompile Include="Code63_UnitTest.cpp" />
     <ClCompile Include="unitTestMain.cpp" />
